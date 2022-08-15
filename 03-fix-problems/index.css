@@ -1,0 +1,38 @@
+* {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    /*значение не меняю, поскольку при разрешении в 603рх идет несоответствие заголовка*/
+    margin: 0.0000001em;
+    font-family: sans-serif;
+    background: cornsilk;
+}
+
+.article {
+    max-width: 680px;
+    padding: 24px 24px 24px 24px;
+}
+
+.article__heading {
+    margin: 0 0 1.5rem 0;
+    color: palevioletred;
+}
+
+.article__lead {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: serif;
+}
+
+.figure__image {
+    max-width: 100%;
+}
+
+.figure__caption {
+    margin: 8px 0 0;
+    font-style: italic;
+    text-align: center;
+}
