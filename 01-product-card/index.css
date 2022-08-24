@@ -6,6 +6,7 @@
 }
 
 :root{
+  --bodyColor: #E5E5E5;
   --mineShaft: #2F2F2F;
   --tundora: #4E4E4E;
   --white: #FFFFFF;
@@ -18,6 +19,7 @@
 body{
   margin-top: 40px;
   font-family: "Arial";
+  background-color: var(--bodyColor);
 }
 
 .section{
@@ -49,6 +51,8 @@ body{
   width: 380px;
   height: 482px;
   border-radius: 16px;
+  box-shadow: 0px 0px 45px -4px #C4C4C4;
+  background-color: var(--white);
 }
 
 .section__previev{
